@@ -41,6 +41,7 @@
         select
           id, action_code, action_name
         from emos.tb_action
+    </select>
     <!--统计总行数-->
     <select id="count" resultType="java.lang.Long">
         select count(1)

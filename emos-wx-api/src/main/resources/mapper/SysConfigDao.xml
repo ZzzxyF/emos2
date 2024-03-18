@@ -49,6 +49,7 @@
         select
           id, param_key, param_value, status, remark
         from emos.sys_config
+    </select>
     <!--统计总行数-->
     <select id="count" resultType="java.lang.Long">
         select count(1)

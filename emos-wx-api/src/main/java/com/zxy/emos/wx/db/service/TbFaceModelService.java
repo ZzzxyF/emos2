@@ -1,6 +1,6 @@
 package com.zxy.emos.wx.db.service;
 
-import com.zxy.emos.wx.db.pojo.TbFaceModel;
+import com.zxy.emos.wx.db.entity.TbFaceModel;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
@@ -8,7 +8,7 @@ import org.springframework.data.domain.PageRequest;
  * (TbFaceModel)表服务接口
  *
  * @author makejava
- * @since 2024-03-13 14:58:02
+ * @since 2024-03-16 21:03:26
  */
 public interface TbFaceModelService {
 

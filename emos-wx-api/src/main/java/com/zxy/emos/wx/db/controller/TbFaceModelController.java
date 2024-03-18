@@ -1,6 +1,6 @@
 package com.zxy.emos.wx.db.controller;
 
-import com.zxy.emos.wx.db.pojo.TbFaceModel;
+import com.zxy.emos.wx.db.entity.TbFaceModel;
 import com.zxy.emos.wx.db.service.TbFaceModelService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -13,7 +13,7 @@ import javax.annotation.Resource;
  * (TbFaceModel)表控制层
  *
  * @author makejava
- * @since 2024-03-13 14:58:00
+ * @since 2024-03-16 21:03:26
  */
 @RestController
 @RequestMapping("tbFaceModel")

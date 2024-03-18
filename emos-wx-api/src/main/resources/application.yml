@@ -31,6 +31,11 @@ spring:
       authentication-database: admin
       username: admin
       password: abcd123456
+  mail:
+    default-encoding: UTF-8
+    host: smtp.aliyun.com
+    username: 951219568@aliyun.com
+    password: zxy123456789!
   redis:
     database: 0
     host: 120.26.216.237
@@ -49,13 +54,14 @@ mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true
-#1. logging:
-#2. level:
-#3. root: info
-#4. com.example.emos.wx.db.dao : warn
-#5. pattern:
-#6. console: "%d{HH:mm:ss} %-5level %msg%n"
 logging:
-  level: info
+  root:
+    level: info
   pattern:
     console: "%d{HH:mm:ss} %-5level %msg%n"
+#配置秘钥
+emos:
+  jwt:
+    secret: abc123456
+    expire: 5
+    cache-expire: 10

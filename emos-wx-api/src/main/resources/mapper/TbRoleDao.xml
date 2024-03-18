@@ -41,6 +41,7 @@
         select
           id, role_name, permissions
         from emos.tb_role
+    </select>
     <!--统计总行数-->
     <select id="count" resultType="java.lang.Long">
         select count(1)

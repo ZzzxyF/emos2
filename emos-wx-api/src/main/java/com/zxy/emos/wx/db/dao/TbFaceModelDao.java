@@ -1,6 +1,6 @@
 package com.zxy.emos.wx.db.dao;
 
-import com.zxy.emos.wx.db.pojo.TbFaceModel;
+import com.zxy.emos.wx.db.entity.TbFaceModel;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.data.domain.Pageable;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
  * (TbFaceModel)表数据库访问层
  *
  * @author makejava
- * @since 2024-03-13 14:58:00
+ * @since 2024-03-16 21:03:26
  */
 public interface TbFaceModelDao {
 

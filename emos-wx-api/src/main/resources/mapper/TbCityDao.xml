@@ -41,6 +41,7 @@
         select
           id, city, code
         from emos.tb_city
+    </select>
     <!--统计总行数-->
     <select id="count" resultType="java.lang.Long">
         select count(1)

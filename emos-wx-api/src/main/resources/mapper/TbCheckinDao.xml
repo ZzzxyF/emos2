@@ -73,6 +73,7 @@
         select
           id, user_id, address, country, province, city, district, status, risk, date, create_time
         from emos.tb_checkin
+    </select>
     <!--统计总行数-->
     <select id="count" resultType="java.lang.Long">
         select count(1)
